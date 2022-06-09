@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * print_square - check for a digit
@@ -27,4 +27,3 @@ void print_square(int n)
 		_putchar('\n');
 
 }
-
