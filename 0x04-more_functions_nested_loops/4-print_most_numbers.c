@@ -1,8 +1,10 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
- * print_numbers - prints numbers
+ * print_most_numbers - prints numbers
  * Return:0
  */
+
 void print_most_numbers(void)
 {
 	char n = 0;
@@ -19,3 +21,4 @@ void print_most_numbers(void)
 	_putchar('\n');
 
 }
+
