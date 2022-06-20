@@ -1,7 +1,11 @@
 #include "main.h"
 
 /**
- * _strspn - 
+ * _strspn - function that gets the length of aprefix substring.
+ *
+ * @s: initial segment
+ * @accept: bytes to check
+ * Return: unsigned int
  */
 
 unsigned int _strspn(char *s, char *accept)
