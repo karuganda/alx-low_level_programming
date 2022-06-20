@@ -1,8 +1,9 @@
 #include "main.h"
 
-
 /**
- * print_chessboard - 
+ * print_chessboard - function that prints a chessboard
+ * @a: sixe of @D array
+ * Return: none
  */
 
 void print_chessboard(char (*a)[8])
@@ -16,10 +17,9 @@ void print_chessboard(char (*a)[8])
 		while (j < 8)
 		{
 			_putchar(a[i][j]);
-			if (j == 7)
-				_putchar('\n');
 			j++;
 		}
+		_putchar('\n');
 		i++;
 	}
 }
