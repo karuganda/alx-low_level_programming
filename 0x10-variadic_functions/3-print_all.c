@@ -68,7 +68,7 @@ void print_all(const char * const format, ...)
 
 	type_t ops[] = {
 		{"c", print_c},
-		{"i", pritn_i},
+		{"i", print_i},
 		{"f", print_f},
 		{"s", print_s},
 		{NULL, NULL}
